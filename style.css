@@ -1,0 +1,186 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.container{
+    width: 1270px;
+    margin: auto;
+}
+.h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* header-section */
+.headerSection{
+    background: #22c2a2;
+    padding: 40px 0;
+}
+.logoMenu{
+    margin-bottom: -10px;
+
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{
+    font-size: 30px;
+    color: white;
+    /* margin-bottom: 10px; */
+}
+.menu{
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+.menu ul{
+    text-align: right;
+}
+
+.menu ul li{
+display: inline-block;
+}
+.menu ul li a{
+    margin: 0 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+/* hero-section */
+.heroSection{
+background-image: url("https://i.ibb.co/jgRXRSM/header-bg01.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 200px 0;
+text-align: center;
+}
+.hero h2{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+
+}
+.hero h4{
+    color: white;
+    margin: 5px;
+
+}
+.hero a{
+    border:1px solid white;
+    padding: 12px 26px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+
+}
+/* service-section */
+.serviceSection{
+    padding: 100px 0;
+    
+}
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.singleService{
+    width: 21%;
+    float: left;;
+    margin:0 2%;
+    
+}
+.singleService i{
+    font-size: 30px;
+    color: #22c2a2;
+
+}
+
+.serviceGrid{
+    text-align: center;
+}
+/* aboutsection */
+.aboutSection{
+    padding: 100px 0;
+    border-top: 2px solid #0dbf9b;
+}
+.aboutImg{
+    width: 43%;
+    float: left;
+    margin-right: 2%;
+}
+.aboutImg img{
+    width: 100%;
+
+}
+
+.aboutText{
+    width: 53%;
+    float: right;
+    margin-left: 2%;
+}
+.singleAboutText{
+    margin-bottom: 30px;
+}
+/* contactsection */
+.contactSection{
+    padding: 100px 0;
+}
+.singleContact{
+    float: left;
+    width: 29%;
+    margin: 0 2%;
+
+}
+.contactGrid{
+    text-align: center;
+
+}
+.singleContact ul li{
+    list-style: none;
+}
+.singleContact i{
+    color: #22c2a2;
+}
+/* footersection */
+.socialMenu{
+    text-align:center;
+    background-color:#22c2a2 ;
+    padding: 15PX 0 20PX;
+
+}
+.socialMenu li{
+    display: inline-block;
+}
+.socialMenu li a {
+    color:black;
+    color: white;
+    font-size: 20px;
+    margin-left: 10PX;
+
+    
+}
+.footerSection1{
+    background:black;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0 35px;
+}
+
+
+
